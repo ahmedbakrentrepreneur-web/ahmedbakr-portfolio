@@ -26,6 +26,12 @@ export const metadata: Metadata = {
     ],
     apple: "/apple-icon.png",
   },
+  manifest: "/manifest.json",
+  appleWebApp: {
+    capable: true,
+    statusBarStyle: "black-translucent",
+    title: "Ahmed Bakr - Portfolio",
+  },
 }
 
 export default function RootLayout({
