@@ -390,7 +390,7 @@ export default function Home() {
             {[
               { metric: "50+", label: "Projects Delivered", desc: "Across multiple industries and markets" },
               { metric: "100%", label: "Client Satisfaction", desc: "Consistent excellence in execution" },
-              { metric: "$10M+", label: "Revenue Generated", desc: "For portfolio companies and clients" },
+              { metric: "$5M+", label: "Revenue Generated", desc: "For portfolio companies and clients" },
             ].map((item, i) => (
               <div
                 key={i}
