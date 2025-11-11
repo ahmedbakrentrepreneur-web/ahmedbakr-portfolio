@@ -119,37 +119,6 @@ export default function Home() {
     <main className="min-h-screen bg-gradient-to-br from-slate-950 via-amber-950 to-slate-950 text-white overflow-hidden">
       <canvas ref={canvasRef} className="fixed inset-0 pointer-events-none opacity-30" />
 
-      {/* Objective Section */}
-      <section className="relative py-20 px-4 md:px-8 bg-gradient-to-b from-slate-950 to-slate-900">
-        <div className="max-w-6xl mx-auto">
-          <h2 className="text-4xl md:text-5xl font-bold mb-12 text-center bg-clip-text text-transparent bg-gradient-to-r from-amber-300 to-amber-200">
-            Objective
-          </h2>
-          <div className="max-w-4xl mx-auto">
-            <div className="p-12 rounded-2xl bg-gradient-to-br from-slate-800 to-slate-700 border-2 border-amber-600/50 hover:border-amber-400/80 transition-all duration-300 shadow-lg hover:shadow-amber-500/20">
-              <p className="text-xl md:text-2xl text-amber-50 leading-relaxed font-light text-center">
-                Entrepreneur passionate about building AI-driven businesses that create real market value and empower
-                others to achieve financial freedom through innovation.
-              </p>
-              <div className="flex justify-center gap-4 mt-8 pt-8 border-t border-amber-600/30">
-                <div className="flex-1 text-center">
-                  <p className="text-amber-400 font-semibold mb-2">Focus</p>
-                  <p className="text-amber-100/70 text-sm">AI-Driven Solutions</p>
-                </div>
-                <div className="flex-1 text-center">
-                  <p className="text-amber-400 font-semibold mb-2">Mission</p>
-                  <p className="text-amber-100/70 text-sm">Market Value Creation</p>
-                </div>
-                <div className="flex-1 text-center">
-                  <p className="text-amber-400 font-semibold mb-2">Goal</p>
-                  <p className="text-amber-100/70 text-sm">Financial Freedom</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
       {/* Hero Section */}
       <section className="relative min-h-screen flex items-center justify-center px-4 md:px-8">
         <div className="absolute inset-0 opacity-20">
@@ -216,6 +185,37 @@ export default function Home() {
                 <span className="px-4 py-2 bg-amber-500/20 border border-amber-400/50 rounded-full text-amber-200 text-sm font-medium">
                   Market Growth
                 </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Objective Section */}
+      <section className="relative py-20 px-4 md:px-8 bg-gradient-to-b from-slate-950 to-slate-900">
+        <div className="max-w-6xl mx-auto">
+          <h2 className="text-4xl md:text-5xl font-bold mb-12 text-center bg-clip-text text-transparent bg-gradient-to-r from-amber-300 to-amber-200">
+            Objective
+          </h2>
+          <div className="max-w-4xl mx-auto">
+            <div className="p-12 rounded-2xl bg-gradient-to-br from-slate-800 to-slate-700 border-2 border-amber-600/50 hover:border-amber-400/80 transition-all duration-300 shadow-lg hover:shadow-amber-500/20">
+              <p className="text-xl md:text-2xl text-amber-50 leading-relaxed font-light text-center">
+                Entrepreneur passionate about building AI-driven businesses that create real market value and empower
+                others to achieve financial freedom through innovation.
+              </p>
+              <div className="flex justify-center gap-4 mt-8 pt-8 border-t border-amber-600/30">
+                <div className="flex-1 text-center">
+                  <p className="text-amber-400 font-semibold mb-2">Focus</p>
+                  <p className="text-amber-100/70 text-sm">AI-Driven Solutions</p>
+                </div>
+                <div className="flex-1 text-center">
+                  <p className="text-amber-400 font-semibold mb-2">Mission</p>
+                  <p className="text-amber-100/70 text-sm">Market Value Creation</p>
+                </div>
+                <div className="flex-1 text-center">
+                  <p className="text-amber-400 font-semibold mb-2">Goal</p>
+                  <p className="text-amber-100/70 text-sm">Financial Freedom</p>
+                </div>
               </div>
             </div>
           </div>
@@ -342,7 +342,7 @@ export default function Home() {
             What I'm Looking For
           </h2>
           <div className="max-w-4xl mx-auto">
-            <div className="p-12 rounded-2xl bg-gradient-to-br from-slate-800 to-slate-700 border border-amber-600/30 space-y-8">
+            <div className="p-12 rounded-2xl bg-gradient-to-br from-slate-800 to-slate-700 border border-amber-600/50 space-y-8">
               <div className="space-y-4">
                 <h3 className="text-2xl font-bold text-amber-300">Strategic Partners with Vision</h3>
                 <p className="text-lg text-amber-50 leading-relaxed font-light">
